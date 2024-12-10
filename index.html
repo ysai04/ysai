@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zsai Prime</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">ZSAI PRIME</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#video">Video</a>
+        <a href="#about">About</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+      </div>
+  </nav>
+
+   <!-- Landing Section -->
+<div class="landing" id="home">
+  <div class="content">
+    <div class="image-container">
+        <img src="zsai.jpg" alt="" class="styled-image">
+    </div>
+    <h1 class="logo">ZSAI PRIME</h1>
+    <p class="tagline">CREATIVITY IS BEYOND EVERYTHING</p>
+  </div>
+</div>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+  <h2 class="section-title">PORTFOLIO</h2>
+  <p class="tagline">PORTRAIT PHOTOGRAPHY</p>
+  <p>Portrait photography is about capturing the essence, personality, identity 
+    and attitude of a person<br> utilizing backgrounds, lighting and posing.
+    While this definition may sound simple,<br> portrait photography can be one 
+    of the most challenging forms of photography to master.</p>
+
+  <!--Gallery 1-->
+  <div class="gallery">
+    <img src="1.jpg" alt="Photo 1" onclick="enterFullScreen(this)">
+    <img src="19.jpg" alt="Photo 2" onclick="enterFullScreen(this)">
+    <img src="20.jpg" alt="Photo 3" onclick="enterFullScreen(this)">
+    <img src="1.1.jpg" alt="Photo 4" onclick="enterFullScreen(this)">
+    <img src="1.2.jpg" alt="Photo 5" onclick="enterFullScreen(this)">
+    <img src="14.jpg" alt="Photo 6" onclick="enterFullScreen(this)">
+</div>
+<p class="tagline">GRAPHIC DESIGN</p>
+<p>Graphic design is the art and profession of selecting and arranging visual 
+    elements such as typography,<br> images, symbols, and colors to convey a message 
+    to an audience1. It is the practice <br>of creating visual content to communicate
+     a particular message to a particular audience</p>
+<div class="gallery">
+    <img src="22.jpg" alt="Photo 1" onclick="enterFullScreen(this)">
+    <img src="222.jpg" alt="Photo 2" onclick="enterFullScreen(this)">
+    <img src="21.jpg" alt="Photo 3" onclick="enterFullScreen(this)">
+    <img src="2222.jpg" alt="Photo 4" onclick="enterFullScreen(this)">
+    <img src="OIP.jpeg" alt="Photo 5" onclick="enterFullScreen(this)">
+    <img src="22222.jpg" alt="Photo 6" onclick="enterFullScreen(this)">
+</div>
+<p class="tagline">LANDSCAPE PHOTOGRAPHY</p>
+<p>Landscape photography is the art of capturing pictures of natural scenery or
+     landscapes, often depicting<br> wider, open spaces rather than small details.
+      It can include human-made features or disturbances<br> of landscapes, but always 
+      focuses on the great outdoors.</p>
+<div class="gallery">
+    <img src="3.jpg" alt="Photo 1" onclick="enterFullScreen(this)">
+    <img src="4.jpg" alt="Photo 2" onclick="enterFullScreen(this)">
+    <img src="5.jpg" alt="Photo 3" onclick="enterFullScreen(this)">
+    <img src="6.jpg" alt="Photo 4" onclick="enterFullScreen(this)">
+    <img src="9.jpg" alt="Photo 5" onclick="enterFullScreen(this)">
+    <img src="33.jpg" alt="Photo 6" onclick="enterFullScreen(this)">
+</div>
+<!-- Full-Screen Exit Button -->
+<div id="exit-btn" class="exit-btn" onclick="exitFullScreen()">Exit Fullscreen</div>
+</section>
+
+<!-- Video Section -->
+<section id="video" class="video">
+    <h2 class="section-title">VIDEO SAMPLE</h2>
+    <p class="tagline">PICK UP COFFEE</p>
+    <p>This is a sample Motion Graphic Video Design for Pick Up Coffee.<br>
+        PickUp Coffee is a start-up that aims to increase the accessibility of 
+        espresso and milk-based beverages. </p>
+        <BR>
+    <video width="640" height="360" controls autoplay loop muted>
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      <br>
+      <br>
+      <br>
+      <p class="tagline">MOVING TEXT DESIGN</p>
+    <p>This is a sample Moving Text Design for a certain brand.<br>
+        Kinetic typography—the technical name for "moving text"—is an animation 
+        technique mixing motion <br>and text to express ideas using video animation.  </p>
+        <br>
+    <video width="640" height="360" controls autoplay loop muted>
+        <source src="video2.mp4" type="video/mp4">
+      </video>
+      <br>
+      <br>
+      <br>
+      <p class="tagline">2D ANIMATION</p>
+    <p>This is a sample Motion Graphic Video Design of a 2D character.<br>
+        Two-dimensional or 2D animation is characterized by having its objects
+         and characters created in a two-dimensional space.  </p>
+        <br>
+    <video width="640" height="360" controls autoplay loop muted>
+        <source src="video1.mp4" type="video/mp4">
+      </video>
+  </section>
+
+
+<!-- About Section -->
+<section id="about" class="about">
+  <h2 class="section-title">ABOUT US</h2>
+  <div class="image-container">
+    <img src="zsai.jpg" alt="" class="styled-image">
+    <img src="profile.jpg" alt="" class="styled-image">
+    <br>
+  <br>
+  <p>Zsai Prime start as a printing shop. It is founded by Ma.Theresa V. Plandanio, a Multi Media Art student.
+    <br>It is first stablish on june 20,2024.This shop continue until we can provide different services. 
+    <br> We aim to give our customers a wonderfull experience by giving them a unique designs and ideas by giving them advices.<br>
+    We are not only here to make money, we are also here to make a more colorfull ideas with everyone.
+  </p>
+</div>
+<p class="tagline">MY SKILLS</p>
+<br>
+
+  <div class="skills-container">
+    <div class="skill">
+        <span class="skill-name">Web Design</span>
+        <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%;"></div>
+        </div>
+    </div>
+    
+    <div class="skill">
+        <span class="skill-name">Graphic Design</span>
+        <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%;"></div>
+        </div>
+    </div>
+    
+    <div class="skill">
+        <span class="skill-name">Photography</span>
+        <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%;"></div>
+        </div>
+    </div>
+    
+    <div class="skill">
+        <span class="skill-name">Editing</span>
+        <div class="skill-bar">
+            <div class="skill-progress" style="width: 75%;"></div>
+        </div>
+    </div>
+    
+    <div class="skill">
+        <span class="skill-name">2D/3D</span>
+        <div class="skill-bar">
+            <div class="skill-progress" style="width: 88%;"></div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Service Section -->
+<section id="service" class="service">
+  <h2 class="section-title">SERVICES</h2>
+  <p class="tagline">We are a team of passionate individuals...</p>
+        <p></p>
+        <br>
+        <br>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Graphic Designing</h4>
+                    <p>Graphic design is the art of combining visual elements like typography, images, and colors to
+                         communicate messages or evoke specific emotions. It encompasses various mediums such as digital graphics,
+                          print materials, and branding.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Web Designing</h4>
+                    <p>Web Design is a field related to designing websites on the Internet. Without a good design, a website 
+                        fails to perform well and cannot produce a good impact on the user. Design is a creative process that 
+                        affects the ranking of the brand. </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Photography</h4>
+                    <p>Photography is a visual art and profession that uses the recording of images to capture, create, 
+                        express, or interpret the appearance, behavior, and/or the animate or inanimate subject matter.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Editing</h4>
+                    <p>Video editing is the post-production and arrangement of video shots. To showcase perfect video editing 
+                        to the public, video editors must be reasonable and ensure they have a superior understanding of film, 
+                        television, and other sorts of videography. </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Animation</h4>
+                    <p>Animation is a technique used to create the illusion of motion by displaying a series of still images in 
+                        rapid succession. These images can be drawings, paintings, or computer-generated graphics.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Videography</h4>
+                    <p>Videography involves capturing moving images on electronic media (such as: videotape, direct to disk recording,
+                         or solid state storage), and can include streaming media. </p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- Contact Section -->
+
+
+    <div id="preview"></div>
+<section id="contact" class="contact">
+  <h2 class="section-title">CONTACT US</h2>
+    <p>We'd love to hear from you! Reach out to us through the contact methods below:</p>
+    
+    <!-- Contact Information -->
+    <div class="contact-methods">
+        <ul>
+            <li><strong>Email:</strong> contact@example.com</li>
+            <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+            <li><strong>Address:</strong> 1234 Elm Street, New York, NY 10001</li>
+            <li><strong>Social Media:</strong> Follow us on <a href="https://twitter.com" target="_blank">Twitter</a>, <a href="https://facebook.com" target="_blank">Facebook</a></li>
+        </ul>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form-container">
+        <form id="contactForm" class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+  
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+      <p>&copy; 2024 Zsai Prime. All rights reserved.</p>
+      
+
+      <div class="social-media-footer">
+          <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-icon instagram">Instagram</a>
+          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon linkedin">LinkedIn</a>
+          <a href="mailto:your.email@example.com" class="social-icon email">Email</a>
+      </div>
+
+      <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Back to Top</button>
+      
+  </div>
+</footer>
+
+<div class="settings-panel" id="settings-panel">
+    <h3>Settings</h3>
+    <h4>Change Font Size</h4>
+    <button onclick="changeFontSize('small')">Small Font</button>
+    <button onclick="changeFontSize('large')">Large Font</button>
+    
+    
+   
+</div>
+
+
+<button class="settings-btn" onclick="toggleSettings()">⚙️</button>
+
+<script src="script.js"></script>
+</body>
+</html>
