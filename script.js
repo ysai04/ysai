@@ -1,3 +1,8 @@
+
+
+
+
+
 // Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
@@ -261,7 +266,13 @@ function toggleMenu() {
   navLinks.classList.toggle('active');
 }
 
-function toggleMenu() {
-  const menu = document.querySelector('.mobile-menu');
-  menu.classList.toggle('active');
-}
+// JavaScript to toggle hamburger menu
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+
+
+

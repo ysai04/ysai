@@ -9,11 +9,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-
-     <!-- Navbar -->
-  <nav class="navbar">
+<!-- Navbar -->
+<nav class="navbar">
     <div class="logo">ZSAI PRIME</div>
-    <ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul id="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#video">Video</a></li>
@@ -21,18 +25,8 @@
       <li><a href="#service">Service</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-
-    <!-- Mobile menu -->
-    <div class="mobile-menu">
-        <a href="#home">Home</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#video">Video</a>
-        <a href="#about">About</a>
-        <a href="#service">Service</a>
-        <a href="#contact">Contact</a>
-      </div>
   </nav>
-
+  
    <!-- Landing Section -->
 <div class="landing" id="home">
   <div class="content">
@@ -62,6 +56,9 @@
     <img src="1.2.jpg" alt="Photo 5" onclick="enterFullScreen(this)">
     <img src="14.jpg" alt="Photo 6" onclick="enterFullScreen(this)">
 </div>
+
+
+
 <p class="tagline">GRAPHIC DESIGN</p>
 <p>Graphic design is the art and profession of selecting and arranging visual 
     elements such as typography,<br> images, symbols, and colors to convey a message 
